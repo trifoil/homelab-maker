@@ -1,3 +1,38 @@
+.project-textbox {
+  width: 220px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 4px;
+  background: #fff;
+  border: 1px solid #bfcfff;
+  border-radius: 6px;
+  padding: 8px 0;
+  font-size: 1rem;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.project-textbox.selected {
+  background: #e0eaff;
+  box-shadow: 0 0 0 2px #7dafff;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modal-content {
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  min-width: 300px;
+  box-shadow: 0 2px 12px #0002;
+}
 .logo.vite:hover {
   filter: drop-shadow(0 0 2em #747bff);
 }
